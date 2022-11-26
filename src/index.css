@@ -1,0 +1,150 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.logo {
+	height: 5rem;
+	width: 5rem;
+	border-radius: 50%;
+}
+
+.img {
+	height: 30rem;
+	width: 70%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 10px;
+}
+
+.footer {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100px;
+}
+
+.bor {
+	border: 1.5px solid gray;
+	background-color: #ccc;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.height {
+	height: 50vh;
+}
+
+.height2 {
+	margin-bottom: 4rem;
+}
+
+.sr-only {
+	color: white;
+}
+
+@keyframes spinner {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.loading-spinner {
+	width: 50px;
+	height: 50px;
+	border: 10px solid #f3f3f3; /* Light grey */
+	border-top: 10px solid #383636; /* Black */
+	border-radius: 50%;
+	animation: spinner 1.5s linear infinite;
+}
+
+.flex1 {
+	display: flex;
+	list-style: "none";
+	justify-content: space-between;
+}
+.p-2 {
+	padding-left: 2rem;
+	padding-right: 2rem;
+	margin-right: 9rem;
+}
+
+.bottom1 {
+	margin-bottom: 3rem;
+	margin-top: 2rem;
+}
+
+/* unvisited link */
+.link {
+	color: red;
+}
+
+/* visited link */
+.link:visited {
+	color: green;
+}
+
+/* mouse over link */
+.link:hover {
+	color: hotpink;
+}
+
+/* selected link */
+.link:active {
+	color: blue;
+}
+
+.width {
+	width: 100vw;
+	height: 500vh;
+}
+
+.bottom2 {
+	margin-top: -1rem;
+	padding-top: 6rem;
+	padding-bottom: 4rem;
+}
+
+.background {
+	background-color: #ccc;
+	padding-left: 3rem;
+	padding-right: 5rem;
+}
+
+.Auth-form-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+}
+
+.Auth-form {
+	width: 420px;
+	box-shadow: rgb(0 0 0 / 16%) 1px 1px 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-radius: 8px;
+	background-color: white;
+}
+
+.Auth-form-content {
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+.Auth-form-title {
+	text-align: center;
+	margin-bottom: 1em;
+	font-size: 24px;
+	color: rgb(34, 34, 34);
+	font-weight: 800;
+}
+
+.center {
+	margin-left: 20rem;
+}
